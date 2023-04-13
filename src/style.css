@@ -281,6 +281,32 @@ header .navbar ul li a:hover {
   background:var(--yellow);
 }
 
+.portfolio .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 30rem);
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.portfolio .box-container .box {
+  height: 20rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.portfolio .box-container .box img {
+  height:100%;
+  width:100%;
+  object-fit: cover;
+  transition: .2s linear;
+}
+
+.portfolio .box-container .box:hover img {
+  transform: scale(1.2);
+}
+
 /* media queries  */
 
 @media (max-width:1200px){
