@@ -11,7 +11,6 @@
   box-sizing: border-box;
   text-decoration: none;
   outline: none; border:none;
-  text-transform: capitalize;
   transition: all .2s linear;
 }
 
@@ -360,7 +359,6 @@ header .navbar ul li a:hover {
   color:#eee;
   padding:1rem 0;
   font-weight: normal;
-  text-transform: none;
 }
 
 .contact .row .content .info h3 i {
