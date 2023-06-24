@@ -366,6 +366,11 @@ header .navbar ul li a:hover {
   color:var(--yellow);
 }
 
+.info a {
+  color:#fff;
+}
+
+
 /* media queries  */
 
 @media (max-width:1200px){
