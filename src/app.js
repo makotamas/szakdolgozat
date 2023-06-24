@@ -1,4 +1,5 @@
 // if we want hot reloaded html in dev server:
+import Typed from 'typed.js';
 import './index.html';
 
 import './style.css';
@@ -28,5 +29,15 @@ document.addEventListener('DOMContentLoaded', () => {
         });
       }
     });
+  });
+
+  // typed js
+
+  const typed = new Typed('.multiple-text', {
+    strings: ['Data Analyst', 'Student', 'Sport Lover'],
+    typeSpeed: 100,
+    backSpeed: 100,
+    backDelay: 1000,
+    loop: true
   });
 });
